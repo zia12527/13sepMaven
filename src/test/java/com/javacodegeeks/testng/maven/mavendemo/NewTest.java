@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
 public class NewTest {
 	public static WebDriver driver ; 
 	 
@@ -17,6 +18,7 @@ public class NewTest {
 	{
 		System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/sel/chromedriver");
 		driver = new ChromeDriver();  
+		
 		driver.manage().window().maximize();
 //		driver.get("https://www.contractoros.net/wp-content/plugins/registration-process/logs/registration-18-09-12.log");
 		driver.get("http://www.google.com");
