@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="com.javacodegeeks.testng.maven.mavendemo"/>
+      <class name="com.javacodegeeks.testng.maven.mavendemo.NewTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
