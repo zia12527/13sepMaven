@@ -3,6 +3,7 @@ package com.javacodegeeks.testng.maven.mavendemo;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -14,10 +15,8 @@ public class NewTest {
 	@BeforeClass
 	public void beforeClass() throws InterruptedException 
 	{
-		System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/sel/chromedriver");
-		ChromeOptions options = new ChromeOptions();
-		options.setExperimentalOption("useAutomationExtension", false);
-		driver = new ChromeDriver();  
+		System.setProperty("webdriver.gecko.driver", "/home/nadsoft34/Desktop/sel/geckodriver");
+		driver = new FirefoxDriver();  
 		driver.manage().window().maximize();
 //		driver.get("https://www.contractoros.net/wp-content/plugins/registration-process/logs/registration-18-09-12.log");
 		driver.get("http://www.google.com");
