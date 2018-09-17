@@ -13,10 +13,11 @@ public class google {
 		@BeforeClass
 		public void beforeClass() throws InterruptedException 
 		{
-			/*System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/sel/chromedriver");
+		//	System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/sel/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/root/.jenkins/workspace/maven\\ 01/headless/chromedriver");
 			driver = new ChromeDriver();  
 			
-			driver.manage().window().maximize();*/
+			driver.manage().window().maximize();
 //			driver.get("https://www.contractoros.net/wp-content/plugins/registration-process/logs/registration-18-09-12.log");
 			driver.get("http://www.google.com");
 		}
