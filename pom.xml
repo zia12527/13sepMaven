@@ -87,6 +87,9 @@
            <suiteXmlFile>testng.xml</suiteXmlFile>
            <!-- <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile> -->
            </suiteXmlFiles>
+           <systemPropertyVariables>
+            <propertyName>firefox</propertyName>
+          	</systemPropertyVariables>
            </configuration>
    </plugin>
   	</plugins>  

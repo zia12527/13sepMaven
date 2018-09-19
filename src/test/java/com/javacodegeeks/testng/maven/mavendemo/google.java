@@ -13,8 +13,8 @@ public class google {
 		@BeforeClass
 		public void beforeClass() throws InterruptedException 
 		{
-		//	System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/sel/chromedriver");
-			System.setProperty("webdriver.chrome.driver", "/root/.jenkins/workspace/maven\\ 01/headless/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/sel/chromedriver");
+		//	System.setProperty("webdriver.chrome.driver", "/root/.jenkins/workspace/maven\\ 01/headless/chromedriver");
 			driver = new ChromeDriver();  
 			
 			driver.manage().window().maximize();
