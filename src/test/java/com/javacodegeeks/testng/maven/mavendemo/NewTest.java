@@ -17,6 +17,7 @@ public class NewTest {
 	public void beforeClass() throws InterruptedException 
 	{
 		System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/sel/chromedriver");
+//		System.setProperty("webdriver.chrome.driver", "/home/nadsoft34/Desktop/sel/chromedriver");
 		driver = new ChromeDriver();  
 		
 		driver.manage().window().maximize();
