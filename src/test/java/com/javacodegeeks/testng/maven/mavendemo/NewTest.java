@@ -40,7 +40,7 @@ public class NewTest {
 	public void actions() throws InterruptedException
 	{
 		System.out.println("Hi testing jenkins....."); 
-		System.out.println("Hi test jenkins..git..."); 
+		//System.out.println("Hi test jenkins..git..."); 
 	
 	}
 }
