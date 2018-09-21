@@ -36,7 +36,7 @@ public class google {
 		@Test
 		public void actions() throws InterruptedException
 		{
-			System.out.println("Hi test jenkins ...."); 
+			System.out.println("Hi test jenkins."); 
 		
 		}
   }
