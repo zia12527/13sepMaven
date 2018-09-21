@@ -4,5 +4,5 @@
     <classes>
       <class name="com.javacodegeeks.testng.maven.mavendemo"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test --->
 </suite> <!-- Suite -->
