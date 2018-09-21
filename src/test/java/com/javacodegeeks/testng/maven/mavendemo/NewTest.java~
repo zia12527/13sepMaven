@@ -40,6 +40,6 @@ public class NewTest {
 	public void actions() throws InterruptedException
 	{
 		System.out.println("Hi test jenkins......"); 
-	// Test editor
+	
 	}
 }
